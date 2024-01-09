@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <div class="container-header">
+        <div class="header">
+            <a href="home.html">
+                <img src="img/logo.png" alt="HTML tutorial" style="width:20%;">
+            </a>
+            <ul>
+                <li><a href="home.html">AGENCIAS</a></li>
+                <li><a href="news.asp">AYUDA</a></li>
+                <li><a href="contact.asp">CONTACT</a></li>
+                <li><a href="about.asp">IDENTIFICATE</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-2">
+        <ul id="dos">
+
+
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">COSTAS</a>
+                <a href="#">NAVIDAD</a>
+                <a href="#">SEMANA SANTA</a>
+                <a href="#">ISLAS</a>
+                <a href="#">ESCAPADAS</a>
+                <a href="#">CRUCEROS</a>
+                <a href="#">OFERTAS</a>
+                <a href="#">HOTELES</a>
+            </div>
+            <button class="openbtn" onclick="openNav()">
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <script>
+                    function myFunction(x) {
+                        x.classList.toggle("change");
+                    }
+                </script>
+            </button>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidepanel").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                }
+            </script>
+
+
+
+            <li><a href="default.asp">CARIBE</a></li>
+            <li><a href="news.asp">VUELO+HOTEL</a></li>
+            <li><a href="contact.asp">ISLAS</a></li>
+            <li><a href="about.asp">CRUCEROS</a></li>
+            <li><a href="default.asp">OFERTAS</a></li>
+            <li><a href="news.asp">VUELOS</a></li>
+            <li><a href="contact.asp">HOTELES</a></li>
+            <li><a href="about.asp">JOVENES+60</a></li>
+        </ul>
+    </div>
+    <div class="containernews">
+
+        <div class="containerA">
+            <img src="img/ny.jpg" id="sez">
+            <h3>VIVE NUEVA YORK</h3>
+            <p id="parr">6 días / 4 noches con vuelos, traslados y alojamiento en hotel 4*.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/roma.jpg" id="sez">
+            <h3>VIVE ROMA</h3>
+            <p id="parr">4 días / 3 noches con vuelos y hotel. Visita esta ciudad llena de
+                influencia mundial.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/london.jpg" id="sez">
+            <h3>VIVE LONDRES</h3>
+            <p id="parr">2 días / 1 noche. Hotel con una magnífica situación céntrica en Londres.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+    </div>
+    <div class="containernews">
+
+        <div class="containerA">
+            <img src="img/ny.jpg" id="sez">
+            <h3>VIVE NUEVA YORK</h3>
+            <p id="parr">6 días / 4 noches con vuelos, traslados y alojamiento en hotel 4*.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/roma.jpg" id="sez">
+            <h3>VIVE ROMA</h3>
+            <p id="parr">4 días / 3 noches con vuelos y hotel. Visita esta ciudad llena de
+                influencia mundial.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/london.jpg" id="sez">
+            <h3>VIVE LONDRES</h3>
+            <p id="parr">2 días / 1 noche. Hotel con una magnífica situación céntrica en Londres.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+    </div>
+    <div class="containernews">
+
+        <div class="containerA">
+            <img src="img/ny.jpg" id="sez">
+            <h3>VIVE NUEVA YORK</h3>
+            <p id="parr">6 días / 4 noches con vuelos, traslados y alojamiento en hotel 4*.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/roma.jpg" id="sez">
+            <h3>VIVE ROMA</h3>
+            <p id="parr">4 días / 3 noches con vuelos y hotel. Visita esta ciudad llena de
+                influencia mundial.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+        <div class="containerA">
+            <img src="img/london.jpg" id="sez">
+            <h3>VIVE LONDRES</h3>
+            <p id="parr">2 días / 1 noche. Hotel con una magnífica situación céntrica en Londres.</p>
+            <button class="button">MAS INFORMACION</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
